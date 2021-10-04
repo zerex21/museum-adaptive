@@ -1,0 +1,18 @@
+.parallax{
+    height: 400px;
+    /* width: 100%; */
+    background-image: url(../assets/img/parallalax/parallax.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: 50% 0;
+
+    h2{
+        display: none;
+      }
+}
+
+@media (max-width:768px) {
+  .parallax{ 
+height: 300px;
+  }
+}

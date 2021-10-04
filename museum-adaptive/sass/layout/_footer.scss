@@ -1,0 +1,346 @@
+.footer {
+  background: $color-black;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 77px 0 32px 0;
+}
+
+.container__info {
+  display: flex;
+}
+
+.footer-navigation {
+  display: flex;
+  padding: 0 373px 0 45px;
+
+  .navigation__link {
+    padding: 11px 0 15px 55px;
+  }
+
+  .navigation__link a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+  }
+}
+.navigation__block1 {
+  padding-right: 77px;
+}
+
+.sprite {
+ 
+  margin-top: 85px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  height: 48px;
+}
+
+.youtube {
+  background-image: url("../assets/img/footer/Youtube.svg");
+  width: 48px;
+  height: 48px;
+}
+.youtube:hover {
+  background-image: url("../assets/img/footer/Youtube(2).svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.facebook {
+  background-image: url("../assets/img/footer/Facebook.svg");
+  width: 48px;
+  height: 48px;
+}
+.facebook:hover {
+  background-image: url("../assets/img/footer/Facebook(2).svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.twitter {
+  background-image: url("../assets/img/footer/Twitter.svg");
+  width: 48px;
+  height: 48px;
+}
+.twitter:hover {
+  background-image: url("../assets/img/footer/Twitter(2).svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.pinterest {
+  background-image: url("../assets/img/footer/Pinterest.svg");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+}
+.pinterest:hover {
+  background-image: url("../assets/img/footer/Pinterest1.svg");
+  margin-left: -3px;
+  width: 52px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.instagram {
+  background-image: url("../assets/img/footer/Instagram.svg");
+  width: 48px;
+  height: 48px;
+}
+.instagram:hover {
+  background-image: url("../assets/img/footer/Instagram(2).svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.copyright {
+  border-top: 3px solid #666666;
+  width: 100%;
+  display: flex;
+  color: $color-white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+}
+
+.container__copyright {
+  padding: 51px 0 51px 0px;
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+}
+
+.copyright__rs {
+  padding-left: 35px;
+}
+
+@media (max-width: 1500px) {
+  .footer__container {
+    margin: 0 20px;
+  }
+  .navigation__block1 {
+    padding-right: 40px;
+  }
+  .footer-navigation {
+    padding: 0 20px 0 25px;
+    .navigation__link a {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 2px;
+    }
+  }
+  .container__copyright {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    padding: 52px 0 41px 0;
+  }
+  .container__info {
+    .logo {
+      padding: 0 0 0 0;
+    }
+  }
+
+  .footer-navigation {
+    padding: 0 0 0 0;
+    .navigation__link a {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 22px;
+      line-height: 26px;
+      letter-spacing: 2px;
+    }
+    .navigation__block1 {
+      padding: 0px 66px 0 25px;
+    }
+    .navigation__link {
+      padding: 15px 0 9px 15px;
+    }
+  }
+  .sprite {
+    margin-top: 92px;
+  }
+}
+
+@media (max-width: 980px) {
+  .footer__container {
+    display: block;
+    padding-bottom: 74px;
+  }
+  .sprite {
+    margin: 0 120px 0 0;
+    float: right;
+    max-width: 340px;
+  }
+  .container__info {
+    justify-content: space-between;
+    padding: 0 0 42px 0;
+  }
+  .footer-navigation {
+    width: 394px;
+    padding: 0 120px 0 0;
+    justify-content: space-around;
+  }
+  .navigation__block1 {
+    padding: 0px 66px 0 15px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__container {
+    padding: 37px 0 129px 0;
+  }
+  .container__info {
+    padding: 4px 76px 0 0;
+    .logo {
+      padding: 0 0 0 0;
+    }
+  }
+  .footer-navigation {
+    justify-content: space-between;
+    padding: 3px 0 0 0;
+    .navigation__link a {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 21px;
+      letter-spacing: 2px;
+    }
+    .navigation__block1 {
+      padding: 0px 0px 0 25px;
+    }
+    .navigation__block2 {
+      margin: 0px 12px 0 0px;
+    }
+    .navigation__link {
+      padding: 15px 0 9px 15px;
+    }
+  }
+
+  .sprite {
+    margin: 41px 90px 0 0;
+  }
+  .container__copyright {
+    padding-top: 41px;
+  }
+}
+@media (max-width: 720px) {
+  .container__info {
+    display: block;
+    .logo {
+      justify-content: start;
+    }
+  }
+  .footer-navigation {
+    display: inline;
+    margin: 0 0 0 0;
+    .navigation__block2,
+    .navigation__block1 {
+      #visiting {
+        order: 1;
+      }
+      #explore {
+        order: 3;
+      }
+      #video {
+        order: 2;
+      }
+      #gallery {
+        order: 5;
+      }
+      #tickets {
+        order: 4;
+      }
+      #contacts {
+        order: 6;
+      }
+
+      margin: 0 0;
+      padding: 0 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .sprite {
+    margin: 40px auto;
+  }
+
+  .copyright__rs {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer__container {
+    padding: 30px 0 0 0;
+    margin: 0 20px;
+  }
+  .container__info {
+    padding: 4px 0 0 0;
+    .logo__img {
+      padding: 7px 20px 0 0;
+    }
+    .logo {
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+  }
+  .navigation__block1 {
+    padding-right: 40px;
+  }
+  .footer-navigation {
+    padding: 0 0px 0 25px;
+    .navigation__link {
+      padding: 17px 0 14px 0;
+    }
+    .navigation__link a {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2px;
+    }
+  }
+  .container__copyright {
+    margin: 0 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 22px;
+
+    letter-spacing: 2px;
+  }
+  .sprite {
+    max-width: 260px;
+    margin: 0 0;
+    float: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto 40px auto;
+  }
+}

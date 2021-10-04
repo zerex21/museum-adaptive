@@ -1,0 +1,217 @@
+.welcome {
+  background-color: $color-black;
+  margin: 0 0 0 0;
+}
+.slider-img_768{
+  display: none;
+}
+
+.welcome__container {
+  position: relative;
+  padding: 0 0 272px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome__content {
+  max-width: 598px;
+  padding: 150px 0 0 0;
+  z-index: 2;
+
+  h2 {
+    padding: 0px 0 24px 0px;
+    color: $color-white;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  p {
+    padding: 0 0 75px 0px;
+    color: $color-white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+}
+
+.welcome__slider {
+  position: absolute;
+  padding-left: 440px;
+  background-size: cover;
+
+  .slider__container {
+    img {
+      max-width: 100%;
+      max-height: 810px;
+    }
+  }
+}
+
+.button_coller:hover {
+  background-color: $color-gold;
+}
+@media (max-width: 1500px) {
+  .welcome__container {
+    margin: 0 30px 0 30px;
+  }
+  .welcome__slider {
+    padding-left: 400px;
+  }
+}
+@media (max-width: 1200px) {
+  .welcome__container {
+    position: relative;
+    padding: 0 0 178px 0;
+  }
+  .welcome__content {
+    padding: 80px 0 0 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .welcome__container {
+     margin: 0 20px;
+    position: relative;
+    padding: 0 0 193px 0;
+  }
+
+  .welcome__content {
+    max-width: 398px;
+    padding: 50px 0 0 0px;
+
+    h2 {
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 50px;
+      line-height: 90px;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: $color-white;
+    }
+
+    p {
+      padding-bottom: 50px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 2px;
+      color: $color-white;
+    }
+  }
+  .welcome__slider {
+    padding-left: 304px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome__container {
+    margin: 0 20px ;
+    padding: 0px 0 0 0px;
+    display: block;
+    text-align: center;
+  }
+
+  .welcome__content {
+    padding: 0 0 0 0;
+    display: inline;
+
+    h2 {
+      padding: 0 0 25px 0;
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 60px;
+      text-align: center;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: $color-white;
+      text-align: center;
+    }
+
+    p {
+      padding: 0 0 47px 0;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 2px;
+      color: $color-white;
+      text-align: center;
+    }
+  }
+
+  .button_coller {
+    display: none;
+  }
+
+  .welcome__slider {
+    padding-left: 0px;
+    position: relative;
+
+    .slider-img_768 {
+      display: inline;
+      max-width: 100%;
+      padding-bottom: 9px;
+    }
+
+    .slider-img {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+   .slider-img_768 {
+      display: none;
+     }
+   .welcome__container {
+     margin: 0 20px ;
+     padding: 0px 0 21px 0px;
+     display: block;
+     text-align: center;
+   }
+   .welcome__content {
+      padding: 0 0 0 0;
+      display: inline;
+  
+      h2 {
+         padding: 16px 0px 24px 0;
+         font-family: Forum;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 28px;
+         line-height: 40px;
+         text-align: center;
+         letter-spacing: 5px;
+         text-transform: uppercase;;
+         color: $color-white;
+         text-align: center;
+      }
+  
+      p {
+         padding-bottom: 50px;
+         font-family: Roboto;
+         font-style: normal;
+         font-weight: 300;
+         font-size: 16px;
+         line-height: 19px;
+         letter-spacing: 2px;
+         color: $color-white;
+         text-align: center;
+      }
+    }
+
+   
+}

@@ -1,0 +1,38 @@
+.button_coller {
+  width: 360px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  border: 0;
+  background: #710707;
+  border-radius: 10px;
+  margin-left: 0px;
+  cursor: pointer;
+  color: $color-white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1024px) {
+  .button_coller {
+    width: 300px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    border: 0;
+    background: #710707;
+    border-radius: 10px;
+    margin-left: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    color: $color-white;
+  }
+}

@@ -1,0 +1,677 @@
+input,
+select {
+  cursor: pointer;
+}
+.close {
+  text-align: end;
+  padding: 30px 28px 33px 0;
+}
+.offerTickets__container {
+  display: flex;
+  justify-content: center;
+}
+
+.tickets__type {
+  margin-right: 20px;
+  .logo-object {
+    width: 85px;
+    height: 38px;
+  }
+
+  h2 {
+    margin-top: -4px;
+    min-width: 362px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 55.2px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: $color-gold;
+  }
+
+  h4 {
+    width: 400px;
+    padding: 14px 0 9px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #740c11;
+    border-bottom: 3px solid #740c11;
+    margin-bottom: 9px;
+  }
+}
+
+.date {
+  display: flex;
+  padding-top: 50px;
+}
+
+.block_tick {
+  margin: 0 20px 20px 0;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #030303;
+  border: 1px solid black;
+  cursor: pointer;
+  input {
+    border: none;
+  }
+}
+
+.visitDate {
+  span:nth-child(2) {
+    padding: 3px 0 0 3px;
+  }
+  .icon_date {
+    padding: 5px 12px 0 14px;
+  }
+  input {
+    margin: 0 15px 0 52px;
+    border: none;
+    width: 40px;
+  }
+  ::-webkit-calendar-picker-indicator {
+    background: url(../assets/img/tickets/icons/arrow.svg) no-repeat center;
+    height: 25px;
+  }
+}
+
+.visitTime {
+  margin: 0 20px 20px 0;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #030303;
+
+  select {
+    margin: 0 0px 0 63px;
+    border: none;
+    width: 40px;
+    height: 30px;
+    -webkit-appearance: none;
+    background: url(../assets/img/tickets/icons/arrow.svg) no-repeat center;
+  }
+
+  .icon_time {
+    padding: 5px 15px 0 14px;
+  }
+  span:nth-child(2) {
+    padding: 3px 0 0 0;
+  }
+}
+
+.input_name {
+  .icon_name {
+    padding: 5px 15px 0 14px;
+  }
+  span:nth-child(2) {
+    padding: 2px 20px 0 0;
+  }
+  input {
+    width: 270px;
+    height: 30px;
+  }
+}
+
+.input_email {
+  .icon_email {
+    padding: 5px 15px 0 14px;
+  }
+  span:nth-child(2) {
+    padding: 2px 20px 0 0;
+  }
+  input {
+    width: 270px;
+    height: 30px;
+  }
+}
+
+.input_phone {
+  .icon_phone {
+    padding: 5px 15px 0 14px;
+  }
+  span:nth-child(2) {
+    padding: 2px 20px 0 0;
+  }
+  input {
+    width: 270px;
+    height: 30px;
+  }
+}
+
+.input_tickets {
+  .icon_ticket {
+    padding: 5px 15px 0 14px;
+  }
+  span:nth-child(2) {
+    padding: 2px 20px 0 0;
+  }
+  select {
+    margin-left: 210px;
+    -webkit-appearance: none;
+    background: url(../assets/img/tickets/icons/arrow.svg) no-repeat center;
+    width: 20px;
+    height: 25px;
+    border: none;
+  }
+}
+
+.entry_ticket {
+  border: 1px solid $color-black;
+  max-width: 398px;
+  .entry-text {
+    width: 370px;
+    padding-bottom: 5px;
+    margin: 9px 0 10px 14px;
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: $color-gold;
+    border-bottom: 2px solid #740c11;
+  }
+}
+
+.choose_tickets {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #030303;
+  padding: 9px 0 0px 14px;
+
+  .ticket1 {
+    display: flex;
+    margin-bottom: 6px;
+    span:first-child {
+      padding-right: 135px;
+    }
+    input {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #030303;
+      text-align: center;
+      height: 21px;
+      border: 1px solid $color-black;
+      width: 28px;
+    }
+  }
+
+  .ticket2 {
+    display: flex;
+    margin-bottom: 14px;
+    span:first-child {
+      padding: 15px 128px 0 0;
+    }
+    .current-tickets {
+      padding-top: 17px;
+    }
+    input {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      color: #030303;
+      text-align: center;
+      height: 21px;
+      border: 1px solid $color-black;
+      width: 28px;
+    }
+  }
+}
+
+.current-tickets {
+  margin-top: -5px;
+  display: flex;
+  align-items: center;
+}
+
+.ticktes__price {
+  border: 1px solid $color-black;
+}
+
+.overview {
+  display: flex;
+  .overview__name {
+    padding: 25px 189px 0 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #272727;
+  }
+  h3 {
+    padding: 2px 0 10px 29px;
+    text-transform: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #740c11;
+  }
+}
+.block_check {
+  align-items: center;
+}
+.choiced_Date {
+  padding: 1px 0 0 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #030303;
+  .icon_date {
+    padding: 0 15px 0px 0;
+  }
+  .icon_time {
+    padding: 7px 15px 0 0;
+  }
+  .icon_check {
+    padding: 7px 15px 0 0;
+  }
+}
+
+.type__tour {
+  padding: 23px 29px 0 0;
+}
+
+.result {
+  padding: 22px 0 0 29px;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #030303;
+}
+
+.result_cost {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  .icon_twice {
+    padding-right: 8px;
+  }
+  .ticket__price {
+    padding-right: 30px;
+  }
+}
+
+.result__price {
+  display: flex;
+  justify-content: space-between;
+  width: 470px;
+  border-top: 2px solid #740c11;
+  padding-top: 8px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #030303;
+  span:nth-child(2) {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #030303;
+  }
+}
+
+.card__imgs {
+  padding: 10px 0 0 29px;
+  position: relative;
+  .card-back {
+    padding: 30px 0 0 110px;
+  }
+  .card-front {
+    position: absolute;
+  }
+}
+.button__book {
+  padding: 22px 0 0 279px;
+  .book {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    padding: 11px 85px 8px 85px;
+    background: #710707;
+    opacity: 0.9;
+    border: none;
+    color: $color-white;
+  }
+}
+
+@media (max-width: 1024px) {
+  .close {
+    text-align: end;
+    padding: 30px 28px 15px 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .offerTickets {
+    display: flex;
+  }
+  .close {
+    text-align: end;
+    padding: 30px 0px 20px 0;
+  }
+  .offerTickets__container {
+    display: inline-table;
+  }
+  .tickets__type {
+    margin-right: 0px;
+    h4 {
+      width: 100%;
+    }
+    .block_tick {
+      margin-right: 0;
+    }
+    .entry_ticket {
+      margin-right: 0;
+      margin-bottom: 50px;
+      max-width: 100%;
+      .ticket2,
+      .ticket1 {
+        justify-content: space-between;
+        .current-tickets {
+          padding-right: 13px;
+        }
+      }
+
+      .entry-text {
+        margin-right: 0px;
+        width: 95%;
+      }
+    }
+
+    .input_tickets {
+      label {
+        padding-left: 130px;
+      }
+    }
+    .date {
+      padding: 31px 0 0 0;
+      justify-content: space-between;
+      .visitDate {
+        label {
+          padding-left: 60px;
+        }
+      }
+      .visitTime {
+        margin: 0 0 0 0;
+        label {
+          padding-left: 60px;
+        }
+      }
+    }
+  }
+  .ticket__price {
+    width: 303px;
+  }
+
+  .overview {
+    .overview__name {
+      padding-left: 13px;
+    }
+    h3 {
+      padding-left: 13px;
+    }
+    .choiced_Date {
+      padding-left: 13px;
+    }
+    .type__tour {
+      padding: 24px 13px 0 30px;
+    }
+  }
+  .result {
+    padding-left: 14px;
+    padding-top: 24px;
+    .result__price {
+      width: 97%;
+    }
+    .ticket__price {
+      width: 55px;
+      padding-right: 3px;
+    }
+  }
+  .card {
+    .card__imgs {
+      padding-top: 15px;
+      padding-left: 13px;
+      .card-back {
+        padding-left: 140px;
+      }
+    }
+  }
+  .button__book {
+    padding: 19px 0 24px 294px;
+    .book {
+      padding-bottom: 10px;
+      padding-right: 90px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .offerTickets{
+    max-width: 380px;
+    margin: 0 auto;
+  }
+  .close {
+    text-align: end;
+    padding: 30px 0px 20px 0px;
+  }
+  .offerTickets__container {
+    max-width: 380px;
+   
+  }
+  .tickets__type {
+
+    .entry_ticket{
+      margin-right:auto;
+      margin-left:auto;
+      width: 360px;
+    }
+
+    .choose_tickets {
+    
+      .ticket1 {
+        display: flex;
+        margin-bottom: 6px;
+        span:first-child {
+          padding-right: 0px;
+        }
+      }
+      .ticket2 {
+        display: flex;
+        margin-bottom: 15px;
+        span:first-child {
+          padding-right: 0px;
+        }
+      }
+      }
+
+    h2 {
+      
+      font-family: Forum;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 35px;
+      text-transform: uppercase;
+    }
+    h4 {
+  
+      max-width: 360px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .date{
+      display: block;
+      .visitDate{
+        label{
+          padding-left: 170px;
+        }
+      }
+      .visitTime{
+        label{
+          padding-left: 170px;
+        }
+      }
+    
+      .block_tick{
+        margin-left:auto;
+        margin-right:auto;
+        width: 360px;
+        margin: 0 0;
+      margin-bottom: 20px;
+      }
+      
+    }
+    .block_tick{
+      margin-left:auto;
+      margin-right:auto;
+      width: 0 0;
+      margin: 0 0;
+      margin-bottom: 20px;
+      width: 360px;
+
+    }
+    .input_name{
+  
+      input{
+        width: 150px;
+      }
+    }
+    .entry_ticket{
+      margin: 0 0 0 0;
+      margin-bottom: 49px;
+    }
+  
+    .input_email{
+      input{
+        width: 150px;
+      }
+    }
+    .input_phone{
+      input{
+        width: 150px;
+      }
+    }.input_tickets{
+      select{
+        margin-left: 171px;
+      }
+     label{
+       padding-left: 0px;
+     }
+    }
+  }
+
+
+  .ticket__price {
+    width: 360px;
+  }
+
+  .overview {
+    .overview__name {
+      padding-left: 13px;
+      padding-right: 0;
+    }
+    h3 {
+      padding-left: 13px;
+    }
+    .choiced_Date {
+      padding-left: 13px;
+    }
+    .type__tour {
+     img{
+       width: 120px;
+     }
+      padding: 24px 0px 0 16px;
+    }
+  }
+  .result {
+    padding-left: 14px;
+    padding-top: 24px;
+  
+    .result_cost{
+      justify-content: space-between;
+    }
+    .result__price {
+      width: 95%;
+      justify-content: space-between;
+    }
+    .ticket__price {
+      width: 55px;
+      padding-right: 3px;
+    }
+  }
+  .card {
+    img{
+      width: 330px;
+      height: 209px;
+    }
+    display: block;
+    .card__imgs {
+      padding-top: 15px;
+      padding-left: 15px;
+      .card-back {
+        padding-left: 0px;
+        padding-top: 235px;
+      }
+    }
+  }
+  .button__book {
+    padding: 36px 0 24px 126px;
+    .book {
+      padding-bottom: 10px;
+      padding-right: 90px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+}

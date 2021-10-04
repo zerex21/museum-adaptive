@@ -1,0 +1,20 @@
+{
+  "name": "museum",
+  "version": "1.0.0",
+  "description": "Private repository for @zerex21",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch museum/sass/style.scss museum/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/zerex21-JSFEPRESCHOOL.git"
+  },
+  "author": "oleg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/zerex21-JSFEPRESCHOOL/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/zerex21-JSFEPRESCHOOL#readme"
+}
